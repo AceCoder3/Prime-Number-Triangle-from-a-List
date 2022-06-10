@@ -1,5 +1,6 @@
+a=int(input("Enter the Range")
 b=[]
-for i in range (1,44):
+for i in range (1,a):
   count=0
   for j in range(2,i):
     if (i % j) == 0:
